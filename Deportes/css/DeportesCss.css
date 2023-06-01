@@ -1,0 +1,25 @@
+.imagen{
+    position: relative;
+    left: -7%;
+
+}
+
+.articulo{
+
+    text-align: justify;
+    position: relative;
+    left: 6%;
+    margin: 100px;
+    padding: 100px;
+}
+
+h2{
+    text-align: justify;
+    position: relative;
+    left: -5%;
+}
+
+p{
+    position: relative;
+    left: -5%;
+}
