@@ -172,3 +172,28 @@ h1{
   position: relative;
   left: 15%;
 }
+
+.M-dublincore {
+  font-size: 11px;
+  font-family: arial;
+  
+}
+
+.dublincore{
+  margin: 1%;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+  
+
+}
+
+dt {
+
+  margin: 1px;
+  justify-content: center;
+
+ 
+
+}

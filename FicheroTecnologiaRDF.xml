@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="https://portalnotihoy.netlify.app/tecnologia">
+	<dc:title>Tecnología </dc:title>
+	<dc:description>Apartado de noticias de tecnología </dc:description>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>Tecnología </rdf:li>
+			<rdf:li>Noticia</rdf:li>
+			<rdf:li>innovación </rdf:li>
+			<rdf:li>Avances </rdf:li>
+			<rdf:li>tendencias </rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>es</dc:language>
+	<dc:creator dc:source="https://github.com/XFelipe41" rdfs:Literal="Felipe Caicedo" />
+	<dc:contributor dc:source="https://github.com/CesarF16" rdfs:Literal="Cesar Farfán " />
+	<dc:publisher dc:source="Jpvelasquezco@ut.edu.co" rdfs:Literal="Juan Pablo Velásquez " />
+	<dc:license dc:source="https://www.copyright.gov/" rdfs:Literal="copyright 2023 Noticias y más" />
+	<dcterms:Created><dcterms:W3CDTF><rdf:value>2023-05-28</rdf:value></dcterms:W3CDTF></dcterms:Created>
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Image" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Service" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Text" />
+	<dc:relation dc:source="https://portalnotihoy.netlify.app/img/busqueda-casa-chatgpt-3044042.webp" rdfs:Literal="ChatGtp" />
+	<dc:relation dc:source="https://portalnotihoy.netlify.app/img/1.jpg" rdfs:Literal="WhatsApp" />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>

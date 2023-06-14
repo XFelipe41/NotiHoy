@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="https://portalnotihoy.netlify.app/">
+	<dc:title>NotiHoy </dc:title>
+	<dc:description>Una pagina de noticias que habla de los principales temas de tecnología , deportes y entretenimiento.</dc:description>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>noticias </rdf:li>
+			<rdf:li>tecnologia </rdf:li>
+			<rdf:li>deportes</rdf:li>
+			<rdf:li>entretenimiento </rdf:li>
+			<rdf:li>tendencias </rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>es</dc:language>
+	<dc:creator dc:source="https://github.com/XFelipe41" rdfs:Literal="Felipe Caicedo" />
+	<dc:contributor dc:source="https://github.com/CesarF16" rdfs:Literal="Cesar Farfán " />
+	<dc:publisher dc:source="Jpvelasquezco@ut.edu.co" rdfs:Literal="Juan Pablo Velásquez " />
+	<dc:license dc:source="https://www.copyright.gov/" rdfs:Literal="copyright 2023 Noticias y más" />
+	<dcterms:Created><dcterms:W3CDTF><rdf:value>2023-05-28</rdf:value></dcterms:W3CDTF></dcterms:Created>
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Collection" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Dataset" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Image" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/MovingImage" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Service" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Text" />
+	<dc:relation dc:source="img/NotiHoyRP.png" rdfs:Literal="logo" />
+	<dc:relation dc:source="img/Diseño sin título.png" rdfs:Literal="banner" />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>
