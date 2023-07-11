@@ -173,7 +173,7 @@ h1{
   left: 15%;
 }
 
-.M-dublincore {
+ .M-dublincore {
   font-size: 11px;
   font-family: arial;
   
@@ -194,6 +194,15 @@ dt {
   margin: 1px;
   justify-content: center;
 
- 
-
 }
+
+dd{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
+
